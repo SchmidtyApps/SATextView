@@ -1,3 +1,3 @@
 # SATextView
 
-![Alt text](SATextViewDemo.png?raw=true "Simulator Pic")
+![Alt text](SATextViewDemo.png?raw=true "Simulator Pic" =100x200)
