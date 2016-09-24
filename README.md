@@ -1,3 +1,3 @@
 # SATextView
 
-![Alt text](SATextViewDemo.png =100x200)
+![Alt text](./SATextViewDemo.png =100x)
