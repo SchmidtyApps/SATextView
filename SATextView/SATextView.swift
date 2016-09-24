@@ -9,12 +9,14 @@
 import UIKit
 
 class SATextView: UITextView {
-
-    var placeholderText : String = ""
-    var isPlaceholderShowing : Bool = false
     
-    var fauxDelegate : UITextViewDelegate?
-    var realDelegate : UITextViewDelegate?
+    /** Adds placeholder text to simulate the behavior of a UITextField**/
+    var placeholder : String = ""
+    
+    private var isPlaceholderShowing : Bool = false
+    
+    private var fauxDelegate : UITextViewDelegate?
+    private var realDelegate : UITextViewDelegate?
     
     override var delegate: UITextViewDelegate? {
         set {
@@ -24,6 +26,13 @@ class SATextView: UITextView {
         get{
             return fauxDelegate
         }
+    }
+    
+    /** Adds a border to simulate the look of a UITextField**/
+    func addBorder() {
+        self.layer.cornerRadius = 5
+        self.layer.borderColor = UIColor.lightGrayColor().CGColor
+        self.layer.borderWidth = 1
     }
     
     required init(coder aDecoder: NSCoder) {
@@ -104,22 +113,22 @@ extension SATextView : UITextViewDelegate {
         realDelegate?.textViewDidChange?(textView)
     }
     
-    func setTextViewPlaceholderIfNeeded() {
+    private func setTextViewPlaceholderIfNeeded() {
         dispatch_async(dispatch_get_main_queue(), {[weak self] in
             guard let selfy = self else {return}
             
-            if (selfy.text == "" || selfy.text == selfy.placeholderText) {
+            if (selfy.text == "" || selfy.text == selfy.placeholder) {
                 selfy.setTextViewPlaceholder()
             }
             })
     }
     
-    func setTextViewPlaceholder() {
+    private func setTextViewPlaceholder() {
         dispatch_async(dispatch_get_main_queue(), {[weak self] in
             guard let selfy = self else {return}
             
             selfy.textColor = UIColor.grayColor()
-            selfy.text = selfy.placeholderText
+            selfy.text = selfy.placeholder
             
             selfy.selectedRange = NSMakeRange(0, 0);
             

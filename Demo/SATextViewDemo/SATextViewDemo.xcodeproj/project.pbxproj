@@ -14,9 +14,9 @@
 		4DF323861D9703530068BFA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF323841D9703530068BFA2 /* LaunchScreen.storyboard */; };
 		4DF323911D9703540068BFA2 /* SATextViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF323901D9703540068BFA2 /* SATextViewDemoTests.swift */; };
 		4DF3239C1D9703540068BFA2 /* SATextViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3239B1D9703540068BFA2 /* SATextViewDemoUITests.swift */; };
-		4DF323AC1D9703850068BFA2 /* SATextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF323AB1D9703850068BFA2 /* SATextView.swift */; };
 		4DF323B01D9707430068BFA2 /* SATextViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF323AE1D9707430068BFA2 /* SATextViewTableViewCell.swift */; };
 		4DF323B11D9707430068BFA2 /* SATextViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DF323AF1D9707430068BFA2 /* SATextViewTableViewCell.xib */; };
+		4DF323B91D9715A60068BFA2 /* SATextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF323B81D9715A60068BFA2 /* SATextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +50,9 @@
 		4DF323971D9703540068BFA2 /* SATextViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SATextViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DF3239B1D9703540068BFA2 /* SATextViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATextViewDemoUITests.swift; sourceTree = "<group>"; };
 		4DF3239D1D9703540068BFA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DF323AB1D9703850068BFA2 /* SATextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SATextView.swift; sourceTree = "<group>"; };
 		4DF323AE1D9707430068BFA2 /* SATextViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SATextViewTableViewCell.swift; sourceTree = "<group>"; };
 		4DF323AF1D9707430068BFA2 /* SATextViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SATextViewTableViewCell.xib; sourceTree = "<group>"; };
+		4DF323B81D9715A60068BFA2 /* SATextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SATextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 		4DF3237A1D9703530068BFA2 /* SATextViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4DF323AA1D9703850068BFA2 /* SATextView */,
+				4DF323B71D9715A60068BFA2 /* SATextView */,
 				4DF323AD1D9706F70068BFA2 /* TableCell */,
 				4DF3237B1D9703530068BFA2 /* AppDelegate.swift */,
 				4DF3237D1D9703530068BFA2 /* ViewController.swift */,
@@ -133,14 +133,6 @@
 			path = SATextViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		4DF323AA1D9703850068BFA2 /* SATextView */ = {
-			isa = PBXGroup;
-			children = (
-				4DF323AB1D9703850068BFA2 /* SATextView.swift */,
-			);
-			path = SATextView;
-			sourceTree = "<group>";
-		};
 		4DF323AD1D9706F70068BFA2 /* TableCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +140,15 @@
 				4DF323AF1D9707430068BFA2 /* SATextViewTableViewCell.xib */,
 			);
 			name = TableCell;
+			sourceTree = "<group>";
+		};
+		4DF323B71D9715A60068BFA2 /* SATextView */ = {
+			isa = PBXGroup;
+			children = (
+				4DF323B81D9715A60068BFA2 /* SATextView.swift */,
+			);
+			name = SATextView;
+			path = ../../../SATextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,10 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DF323AC1D9703850068BFA2 /* SATextView.swift in Sources */,
 				4DF3237E1D9703530068BFA2 /* ViewController.swift in Sources */,
 				4DF3237C1D9703530068BFA2 /* AppDelegate.swift in Sources */,
 				4DF323B01D9707430068BFA2 /* SATextViewTableViewCell.swift in Sources */,
+				4DF323B91D9715A60068BFA2 /* SATextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
