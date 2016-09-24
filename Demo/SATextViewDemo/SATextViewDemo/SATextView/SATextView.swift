@@ -11,7 +11,7 @@ import UIKit
 class SATextView: UITextView {
 
     /** Adds placeholder text to simulate the behavior of a UITextField**/
-    var placeholderText : String = ""
+    var placeholder : String = ""
     
     private var isPlaceholderShowing : Bool = false
     
@@ -117,7 +117,7 @@ extension SATextView : UITextViewDelegate {
         dispatch_async(dispatch_get_main_queue(), {[weak self] in
             guard let selfy = self else {return}
             
-            if (selfy.text == "" || selfy.text == selfy.placeholderText) {
+            if (selfy.text == "" || selfy.text == selfy.placeholder) {
                 selfy.setTextViewPlaceholder()
             }
             })
@@ -128,7 +128,7 @@ extension SATextView : UITextViewDelegate {
             guard let selfy = self else {return}
             
             selfy.textColor = UIColor.grayColor()
-            selfy.text = selfy.placeholderText
+            selfy.text = selfy.placeholder
             
             selfy.selectedRange = NSMakeRange(0, 0);
             

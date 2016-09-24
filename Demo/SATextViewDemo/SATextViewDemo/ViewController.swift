@@ -42,17 +42,17 @@ extension ViewController : UITableViewDataSource {
             switch indexPath.row {
             case 0:
                 cell.titleLabel.text = "Name"
-                cell.textView.placeholderText = "Optional"
+                cell.textView.placeholder = "Optional"
             case 1:
                 cell.titleLabel.text = "Email"
-                cell.textView.placeholderText = "Required"
+                cell.textView.placeholder = "Required"
                 cell.textView.text = "test@test.com"
             case 2:
                 cell.titleLabel.text = "Phone Number"
-                cell.textView.placeholderText = "Optional"
+                cell.textView.placeholder = "Optional"
             case 3:
                 cell.titleLabel.text = "Note"
-                cell.textView.placeholderText = "Optional (Type something long enough to wrap)"
+                cell.textView.placeholder = "Optional (Type something long enough to wrap)"
             default:
                 break
             }
