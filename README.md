@@ -1,3 +1,3 @@
 # SATextView
 
-![Alt text](./SATextViewDemo.png =100x)
+![Alt text](SATextViewDemo.png?raw=true "Simulator Pic")
