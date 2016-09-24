@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 
 extension ViewController : UITableViewDataSource {
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return 4
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -50,6 +50,9 @@ extension ViewController : UITableViewDataSource {
             case 2:
                 cell.titleLabel.text = "Phone Number"
                 cell.textView.placeholderText = "Optional"
+            case 3:
+                cell.titleLabel.text = "Note"
+                cell.textView.placeholderText = "Optional (Type something long enough to wrap)"
             default:
                 break
             }
