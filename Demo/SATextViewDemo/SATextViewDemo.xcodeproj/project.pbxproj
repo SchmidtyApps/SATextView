@@ -12,29 +12,10 @@
 		4DF323811D9703530068BFA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF3237F1D9703530068BFA2 /* Main.storyboard */; };
 		4DF323831D9703530068BFA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DF323821D9703530068BFA2 /* Assets.xcassets */; };
 		4DF323861D9703530068BFA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF323841D9703530068BFA2 /* LaunchScreen.storyboard */; };
-		4DF323911D9703540068BFA2 /* SATextViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF323901D9703540068BFA2 /* SATextViewDemoTests.swift */; };
-		4DF3239C1D9703540068BFA2 /* SATextViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF3239B1D9703540068BFA2 /* SATextViewDemoUITests.swift */; };
 		4DF323B01D9707430068BFA2 /* SATextViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF323AE1D9707430068BFA2 /* SATextViewTableViewCell.swift */; };
 		4DF323B11D9707430068BFA2 /* SATextViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DF323AF1D9707430068BFA2 /* SATextViewTableViewCell.xib */; };
 		4DF323B91D9715A60068BFA2 /* SATextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF323B81D9715A60068BFA2 /* SATextView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4DF3238D1D9703540068BFA2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4DF323701D9703530068BFA2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4DF323771D9703530068BFA2;
-			remoteInfo = SATextViewDemo;
-		};
-		4DF323981D9703540068BFA2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4DF323701D9703530068BFA2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4DF323771D9703530068BFA2;
-			remoteInfo = SATextViewDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4DF323781D9703530068BFA2 /* SATextViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SATextViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,12 +25,6 @@
 		4DF323821D9703530068BFA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DF323851D9703530068BFA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DF323871D9703530068BFA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DF3238C1D9703540068BFA2 /* SATextViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SATextViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DF323901D9703540068BFA2 /* SATextViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATextViewDemoTests.swift; sourceTree = "<group>"; };
-		4DF323921D9703540068BFA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4DF323971D9703540068BFA2 /* SATextViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SATextViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DF3239B1D9703540068BFA2 /* SATextViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATextViewDemoUITests.swift; sourceTree = "<group>"; };
-		4DF3239D1D9703540068BFA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DF323AE1D9707430068BFA2 /* SATextViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SATextViewTableViewCell.swift; sourceTree = "<group>"; };
 		4DF323AF1D9707430068BFA2 /* SATextViewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SATextViewTableViewCell.xib; sourceTree = "<group>"; };
 		4DF323B81D9715A60068BFA2 /* SATextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SATextView.swift; sourceTree = "<group>"; };
@@ -63,20 +38,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4DF323891D9703540068BFA2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DF323941D9703540068BFA2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,8 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				4DF3237A1D9703530068BFA2 /* SATextViewDemo */,
-				4DF3238F1D9703540068BFA2 /* SATextViewDemoTests */,
-				4DF3239A1D9703540068BFA2 /* SATextViewDemoUITests */,
 				4DF323791D9703530068BFA2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				4DF323781D9703530068BFA2 /* SATextViewDemo.app */,
-				4DF3238C1D9703540068BFA2 /* SATextViewDemoTests.xctest */,
-				4DF323971D9703540068BFA2 /* SATextViewDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,24 +70,6 @@
 				4DF323871D9703530068BFA2 /* Info.plist */,
 			);
 			path = SATextViewDemo;
-			sourceTree = "<group>";
-		};
-		4DF3238F1D9703540068BFA2 /* SATextViewDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				4DF323901D9703540068BFA2 /* SATextViewDemoTests.swift */,
-				4DF323921D9703540068BFA2 /* Info.plist */,
-			);
-			path = SATextViewDemoTests;
-			sourceTree = "<group>";
-		};
-		4DF3239A1D9703540068BFA2 /* SATextViewDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4DF3239B1D9703540068BFA2 /* SATextViewDemoUITests.swift */,
-				4DF3239D1D9703540068BFA2 /* Info.plist */,
-			);
-			path = SATextViewDemoUITests;
 			sourceTree = "<group>";
 		};
 		4DF323AD1D9706F70068BFA2 /* TableCell */ = {
@@ -171,42 +110,6 @@
 			productReference = 4DF323781D9703530068BFA2 /* SATextViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4DF3238B1D9703540068BFA2 /* SATextViewDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4DF323A31D9703540068BFA2 /* Build configuration list for PBXNativeTarget "SATextViewDemoTests" */;
-			buildPhases = (
-				4DF323881D9703540068BFA2 /* Sources */,
-				4DF323891D9703540068BFA2 /* Frameworks */,
-				4DF3238A1D9703540068BFA2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4DF3238E1D9703540068BFA2 /* PBXTargetDependency */,
-			);
-			name = SATextViewDemoTests;
-			productName = SATextViewDemoTests;
-			productReference = 4DF3238C1D9703540068BFA2 /* SATextViewDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4DF323961D9703540068BFA2 /* SATextViewDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4DF323A61D9703540068BFA2 /* Build configuration list for PBXNativeTarget "SATextViewDemoUITests" */;
-			buildPhases = (
-				4DF323931D9703540068BFA2 /* Sources */,
-				4DF323941D9703540068BFA2 /* Frameworks */,
-				4DF323951D9703540068BFA2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4DF323991D9703540068BFA2 /* PBXTargetDependency */,
-			);
-			name = SATextViewDemoUITests;
-			productName = SATextViewDemoUITests;
-			productReference = 4DF323971D9703540068BFA2 /* SATextViewDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,14 +122,7 @@
 				TargetAttributes = {
 					4DF323771D9703530068BFA2 = {
 						CreatedOnToolsVersion = 7.3.1;
-					};
-					4DF3238B1D9703540068BFA2 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 4DF323771D9703530068BFA2;
-					};
-					4DF323961D9703540068BFA2 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 4DF323771D9703530068BFA2;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -244,8 +140,6 @@
 			projectRoot = "";
 			targets = (
 				4DF323771D9703530068BFA2 /* SATextViewDemo */,
-				4DF3238B1D9703540068BFA2 /* SATextViewDemoTests */,
-				4DF323961D9703540068BFA2 /* SATextViewDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,20 +153,6 @@
 				4DF323831D9703530068BFA2 /* Assets.xcassets in Resources */,
 				4DF323811D9703530068BFA2 /* Main.storyboard in Resources */,
 				4DF323B11D9707430068BFA2 /* SATextViewTableViewCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DF3238A1D9703540068BFA2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DF323951D9703540068BFA2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,36 +170,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4DF323881D9703540068BFA2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4DF323911D9703540068BFA2 /* SATextViewDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DF323931D9703540068BFA2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4DF3239C1D9703540068BFA2 /* SATextViewDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4DF3238E1D9703540068BFA2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4DF323771D9703530068BFA2 /* SATextViewDemo */;
-			targetProxy = 4DF3238D1D9703540068BFA2 /* PBXContainerItemProxy */;
-		};
-		4DF323991D9703540068BFA2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4DF323771D9703530068BFA2 /* SATextViewDemo */;
-			targetProxy = 4DF323981D9703540068BFA2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4DF3237F1D9703530068BFA2 /* Main.storyboard */ = {
@@ -434,6 +285,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SchmidtyApps.SATextViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -445,52 +297,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SchmidtyApps.SATextViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		4DF323A41D9703540068BFA2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SATextViewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SchmidtyApps.SATextViewDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SATextViewDemo.app/SATextViewDemo";
-			};
-			name = Debug;
-		};
-		4DF323A51D9703540068BFA2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SATextViewDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SchmidtyApps.SATextViewDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SATextViewDemo.app/SATextViewDemo";
-			};
-			name = Release;
-		};
-		4DF323A71D9703540068BFA2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SATextViewDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SchmidtyApps.SATextViewDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SATextViewDemo;
-			};
-			name = Debug;
-		};
-		4DF323A81D9703540068BFA2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SATextViewDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.SchmidtyApps.SATextViewDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = SATextViewDemo;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -513,22 +320,7 @@
 				4DF323A21D9703540068BFA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		4DF323A31D9703540068BFA2 /* Build configuration list for PBXNativeTarget "SATextViewDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4DF323A41D9703540068BFA2 /* Debug */,
-				4DF323A51D9703540068BFA2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		4DF323A61D9703540068BFA2 /* Build configuration list for PBXNativeTarget "SATextViewDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4DF323A71D9703540068BFA2 /* Debug */,
-				4DF323A81D9703540068BFA2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

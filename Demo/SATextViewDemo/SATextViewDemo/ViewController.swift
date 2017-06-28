@@ -22,17 +22,17 @@ class ViewController: UIViewController {
 }
 
 extension ViewController : UITableViewDataSource {
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 4
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cellReuseIdentifier: String = "SATextViewCell"
         
-        var cell:SATextViewTableViewCell? = tableView.dequeueReusableCellWithIdentifier(cellReuseIdentifier) as? SATextViewTableViewCell
+        var cell:SATextViewTableViewCell? = tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier) as? SATextViewTableViewCell
         if (cell == nil) {
-            var nib: [AnyObject] = NSBundle.mainBundle().loadNibNamed("SATextViewTableViewCell", owner: self, options: nil)
+            var nib: [Any] = Bundle.main.loadNibNamed("SATextViewTableViewCell", owner: self, options: nil)!
             cell = nib[0] as? SATextViewTableViewCell
         }
         
@@ -66,7 +66,7 @@ extension ViewController : UITableViewDataSource {
 
 extension ViewController : UITextViewDelegate {
     
-    func textViewDidChange(textView: UITextView) {
+    func textViewDidChange(_ textView: UITextView) {
         
         tableView.beginUpdates()
         tableView.endUpdates()
